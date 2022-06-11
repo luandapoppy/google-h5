@@ -1,0 +1,83 @@
+//色值
+$black: #000;
+$black1: rgba(0, 0, 0, 0.85);
+$black2: rgba(0, 0, 0, 0.65);
+$black3: rgba(0, 0, 0, 0.45);
+$black4: #333;
+$black5: #666;
+$black6: #999;
+
+$gray1: #e3e4e5;
+$gray2: #ccc;
+
+$white: #fff;
+$white1: rgba(255, 255, 255, 0.9);
+$white2: rgba(255, 255, 255, 0.8);
+$white3: rgba(255, 255, 255, 0.65);
+
+$blue: #409eff;
+$red: #ff4045;
+$green: #15be85;
+
+$maincolor: #ff7f00;
+$bgcolor: #fefefe;
+$bgcolor2: #f4f5f6;
+$bgcolor3: #f7f7f7;
+//定位上下左右居中
+@mixin center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+//上下居中
+@mixin topcenter {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+//左右居中
+@mixin leftcenter {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+//flex布局
+@mixin justify($value: space-between) {
+  display: flex;
+  justify-content: $value;
+}
+
+//上下居中
+@mixin align($type: center) {
+  display: flex;
+  align-items: center;
+}
+
+//字体大小，颜色
+@mixin sizeColor($size, $color) {
+  font-size: $size;
+  color: $color;
+}
+
+//宽高
+@mixin widthHeight($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin bg($url) {
+  background-image: url($url);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+@mixin bglinear($color1, $color2) {
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, $color1), color-stop(1, $color2));
+}
+
+// 超出省略
+@mixin ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

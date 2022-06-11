@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "ks-icon"; /* Project id 3003508 */
+  src: url('iconfont.woff2?t=1641551059716') format('woff2'),
+       url('iconfont.woff?t=1641551059716') format('woff'),
+       url('iconfont.ttf?t=1641551059716') format('truetype');
+}
+
+.ks-icon {
+  font-family: "ks-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ks-icon-certify:before {
+  content: "\e996";
+}
+
+.ks-icon-scan:before {
+  content: "\e689";
+}
+
+.ks-icon-school:before {
+  content: "\e6a2";
+}
+
+.ks-icon-camera:before {
+  content: "\e633";
+}
+
+.ks-icon-expired:before {
+  content: "\e6c8";
+}
+
+.ks-icon-total:before {
+  content: "\e6ba";
+}
+
+.ks-icon-task:before {
+  content: "\e6bb";
+}
+
+.ks-icon-star:before {
+  content: "\e6b3";
+}
+
+.ks-icon-student:before {
+  content: "\e6fa";
+}
+
+.ks-icon-shangsheng:before {
+  content: "\e737";
+}
+
+.ks-icon-shanchu:before {
+  content: "\e629";
+}
+
+.ks-icon-xiajiang:before {
+  content: "\e87d";
+}
+
+.ks-icon-guide:before {
+  content: "\e67e";
+}
+
+.ks-icon-bianji:before {
+  content: "\e6b9";
+}
+
+.ks-icon-switch:before {
+  content: "\e623";
+}
+
+.ks-icon-notice:before {
+  content: "\e652";
+}
+
+.ks-icon-kefu:before {
+  content: "\eeb4";
+}
+
+.ks-icon-left:before {
+  content: "\e67d";
+}
+
